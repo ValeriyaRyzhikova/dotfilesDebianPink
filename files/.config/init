@@ -1,0 +1,13 @@
+#!/bin/sh
+setxkbmap -option grp:alt_shift_toggle us,ru
+picom --config $XDG_CONFIG_HOME/picom/picom.conf --experimental-backends -b 
+xrdb $XDG_CONFIG_HOME/Xresources &
+xset r rate 450 50 &
+xsetroot -cursor_name left_ptr &
+unclutter &
+clipmenud &
+#dual_monitor &
+flameshot &
+dunst &
+set_background.sh &
+exec $WM

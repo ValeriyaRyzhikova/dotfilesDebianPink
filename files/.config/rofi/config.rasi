@@ -1,0 +1,8 @@
+configuration {
+	modi: "window,run,drun";
+	theme: "theme.rasi";
+	font: "mononoki Nerd Font 13";
+	icon-theme: "/usr/share/icon/Numix-Light";
+	show-icons: true;
+        matching: "fuzzy";
+}
