@@ -16,4 +16,5 @@ xorg-dev build-essential libx11-dev x11proto-xext-dev libxrender-dev libxext-dev
 fonts-mononoki numix-icon-theme-circle
 xclip
 python3-psutil
+pulseaudio alsa-utils
 

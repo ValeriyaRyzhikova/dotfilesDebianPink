@@ -30,6 +30,6 @@ cd ../
 git clone https://github.com/grwlf/xkb-switch
 cd xkb-switch
 mkdir build && cd build
-cmake ..
+cmake .
 make
 cd $directory_before_install
